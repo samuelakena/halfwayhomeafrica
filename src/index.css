@@ -1,0 +1,204 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #f9fbea;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #f2f6d5;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 2.1rem;
+  color: #393f0d;
+  line-height: 1.5;
+}
+
+h4 {
+  font-family: 'Lora', serif;
+  color: #4c5412;
+  line-height: 1.5;
+}
+
+p {
+  color: #737e1a;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid #dfe996;
+}
+
+.navbar-dark .navbar-brand {
+  color: #131504;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.navbar-dark .navbar-brand:hover {
+  color: #000;
+  font-weight: 600;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #393f0d;
+  margin: 0 0.6rem;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #000;
+  font-weight: 500;
+}
+
+.nav-container {
+  padding: 2% 15%;
+}
+
+/* Hero section */
+.hero-section {
+  background: linear-gradient(rgba(57, 63, 13, 0.7), rgba(57, 63, 13, 0.7)),
+    url(../public/images/banner.jpg) no-repeat center center;
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e5e5e5;
+}
+
+.hero-section > h2 {
+  color: #dfe996;
+}
+
+/* Button */
+
+.btn-primary {
+  background-color: #737e1a;
+  border-color: #262a09;
+}
+
+.btn-primary:hover {
+  background-color: #262a09;
+  border-color: #262a09;
+}
+
+.cta {
+  margin: 3% 0;
+  border-radius: 28px;
+  font-family: 'Poppins', sans-serif;
+  color: #eceafb;
+  font-size: 20px;
+  background: #131504;
+  padding: 0.5rem 3rem;
+  border: solid 1px #131504;
+  text-decoration: none;
+}
+
+.cta:hover {
+  background: #4c5412;
+  color: #131504;
+  text-decoration: none;
+}
+
+/* Container */
+
+.containerfluid {
+  padding: 3% 15%;
+}
+
+/* Design screen */
+
+.card {
+  background-color: #fff;
+  border: 1px solid #dfe996;
+}
+
+.design_container {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.main_container {
+  background-color: #f9fbea;
+  min-height: 85vh;
+}
+
+.card-img-top {
+  max-height: 240px;
+}
+
+/* About us */
+
+.about-us {
+  text-align: center;
+  background-color: #ecf2c0;
+}
+
+.about-us > h2 {
+  color: #ecf2c0;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.mission-box {
+  padding: 2rem 3rem;
+}
+
+.icon {
+  color: #99a823;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #262a09;
+}
+
+.houseicons {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  color: #262a09;
+}
+
+.housedetail {
+  display: grid;
+  grid-gap: 10rem;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+}
+
+.housedetail-image {
+  height: 400px;
+  object-fit: contain;
+}
+
+.features {
+  width: 400px;
+  padding: 0 2rem;
+  border: solid 1px #131504;
+}
+
+.description {
+  padding: 3% 0;
+}
+/* Footer */
+
+footer {
+  padding: 3% 15%;
+  text-align: center;
+  background-color: #262a09;
+  color: #f2f6d5;
+}

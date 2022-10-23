@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/halfwayhomeafrica/static/css/main.88a52d6d.css",
+    "main.js": "/halfwayhomeafrica/static/js/main.e8c78c3a.js",
+    "static/js/787.cda612ba.chunk.js": "/halfwayhomeafrica/static/js/787.cda612ba.chunk.js",
+    "static/media/banner.jpg": "/halfwayhomeafrica/static/media/banner.dd68d0a80550540c2393.jpg",
+    "index.html": "/halfwayhomeafrica/index.html",
+    "main.88a52d6d.css.map": "/halfwayhomeafrica/static/css/main.88a52d6d.css.map",
+    "main.e8c78c3a.js.map": "/halfwayhomeafrica/static/js/main.e8c78c3a.js.map",
+    "787.cda612ba.chunk.js.map": "/halfwayhomeafrica/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88a52d6d.css",
+    "static/js/main.e8c78c3a.js"
+  ]
+}
